@@ -1,0 +1,29 @@
+pari-galdata (0.20080411-3) unstable; urgency=medium
+
+  * debian/control
+    - Build-depends on debhelper-compat (=12). Closes: #965763
+    - Bump Standard-Version to 4.5.0
+    - Remove obsolete Replaces: pari-extra (<= 2.1-1)
+    - Add Multi-Arch: foreign
+  * debian/compat: removed
+
+ -- Bill Allombert <ballombe@debian.org>  Wed, 22 Jul 2020 17:08:42 +0200
+
+pari-galdata (0.20080411-2) unstable; urgency=low
+
+  * debian/control:
+    - Fix typo in description: resolvant->resolvent. 
+      Thanks, Erik Esterer. Closes: #644603.
+
+ -- Bill Allombert <ballombe@debian.org>  Wed, 16 Nov 2011 12:20:32 +0100
+
+pari-galdata (0.20080411-1) unstable; urgency=low
+
+  * Initial Release. 
+  * Replaces obsolete pari-extra package.
+
+ -- Bill Allombert <ballombe@debian.org>  Wed, 13 Jul 2011 18:03:22 +0200
+
+Local variables:
+mode: debian-changelog
+End:
